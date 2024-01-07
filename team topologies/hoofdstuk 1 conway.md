@@ -1,8 +1,3 @@
----
-created: 2024-01-07T15:07:38+01:00
-modified: 2024-01-07T15:35:24+01:00
----
-
 # hoofdstuk 1 conway
 
 Hoofdstuk 1, conway's law. 

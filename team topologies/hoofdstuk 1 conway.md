@@ -21,6 +21,7 @@ En stel dat je de applicatie openbreekt en zeg in 2 delen splitst. (in casu klan
 
 
 >>'if you have four groups working on a compiler, you'll get a 4-pass compiler' (Eric Raymond)
+
 Hoewel dit niet een helemaal serieus argument is, vraag ik me hierbij toch af hoe tautologisch Conway's law is. Iemand moet toch hebben bedacht dat het zinvol is om 4 teams samen te stellen. En heeft die dan niet gelijk al een intuitie dat een 4-pass compiler een goede implementatie is? Beter gezegd een compiler met 4 kern-functionaliteiten?
 Is er dan  niet ook ergens in een vroege fase van het project een plaatje gemaakt met dit design?
 Hoogstens zou je kunnen zeggen dat een 4-pass compiler extra lastig wordt met 5 teams. En dat er dus alignment nodig is tussen team indeling en architectuur. 

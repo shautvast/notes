@@ -1,0 +1,1 @@
+Get RHEL version: cat /etc/redhat-release

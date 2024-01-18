@@ -1,0 +1,2 @@
+- Prune local branches: git fetch -p
+- 

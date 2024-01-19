@@ -9,4 +9,7 @@ Finally got round to making gluten-free rejuvelac from buckwheat grains (not kas
 7. Put away for 2 to 3 days.
 8. Refresh the water and rinse twice per day
 9. Small whitish sprouts will appear
-10. 
+
+At least that’s where I’m now. 
+It’s in a clean jar covered with water and it should start fermenting 
+    

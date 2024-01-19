@@ -1,0 +1,1 @@
+2024-01-19 diarrhea and headache lots of gas in the night. Had vegan meat of peas and chickpeas for lunch which may also have contained garlic

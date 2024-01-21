@@ -1,4 +1,4 @@
-Finally got round to making gluten-free rejuvelac from buckwheat grains (not kasha that won’t sprout)
+Friday: Finally got round to making gluten-free rejuvelac from buckwheat grains (not kasha that won’t sprout)
 
 1. soak them for a couple of hours
 2. Rinse
@@ -12,4 +12,7 @@ Finally got round to making gluten-free rejuvelac from buckwheat grains (not kas
 
 At least that’s where I’m now. 
 It’s in a clean jar covered with water and it should start fermenting 
+
+Sunday: not sour yet
+Smells and tastes ok, plant like
     

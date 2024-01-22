@@ -15,4 +15,6 @@ It’s in a clean jar covered with water and it should start fermenting
 
 Sunday: not sour yet
 Smells and tastes ok, plant like
+
+Monday: it smelled rotten so I tossed it
     

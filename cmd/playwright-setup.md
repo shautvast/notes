@@ -1,6 +1,12 @@
 pretty standard setup that you get from `npm i playwright`
 
-WIP. Let's see if I can get wds to run from within this setup
+```json
+{
+  "scripts": {
+    "playwright": "DEBUG=pw:webserver npx playwright test flow/open-account-regular ",
+  }
+}
+```
 
 ```typescript
 import { defineConfig, devices } from '@playwright/test';
@@ -26,7 +32,6 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     // baseURL: '',
 
@@ -41,11 +46,10 @@ export default defineConfig({
     },
   ],
 
-  // webServer: {
-    // command: 'wds',
-    // url: 'http://127.0.0.1:8000',
-    // reuseExistingServer: !process.env.CI,
-  // },
+  webServer: {
+    command: 'wds -c web-demo-server.config.mjs',
+    url: 'http://127.0.0.1:8000/demo',
+    reuseExistingServer: false,
+  },
 });
-
 ```

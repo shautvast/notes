@@ -58,7 +58,7 @@ export default defineConfig({
 ```
 added the DEBUG env var to see logging of the wds server startup while running playwright
 
-for convinience and to inform your mates I added the 2 options with `--headed` and `--ui`. Use the ui to develop your tests
+for convenience and to inform your mates I added the 2 options with `--headed` and `--ui`. Use the ui to develop your tests
 
 the WDS setup is in [here](web-dev-server.md)
 

@@ -8,6 +8,7 @@ After the reset new values are probably used. TODO verify that.
 
 I took out the customer specifics here (middleware)
 
+`web-demo-server.config.mjs`
 ```javascript
 import ...
 
@@ -27,5 +28,4 @@ export default {
     removeCookies(),
   ]
 };
-
-```web-demo-server.config.mjs
+```

@@ -28,4 +28,4 @@ export default {
   ]
 };
 
-```
+```web-demo-server.config.mjs

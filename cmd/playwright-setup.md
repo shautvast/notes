@@ -1,4 +1,4 @@
-pretty standard setup that you get from `npm i playwright`
+pretty standard setup that you get from `npm init playwright@latest`
 
 ```json
 {

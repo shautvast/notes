@@ -7,6 +7,9 @@ pretty standard setup that you get from `npm i playwright`
   }
 }
 ```
+added the DEBUG env var to see logging of the wds server startup while running playwright
+
+the WDS setup is in [web-dev-server.md]
 
 ```typescript
 import { defineConfig, devices } from '@playwright/test';

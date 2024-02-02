@@ -1,16 +1,5 @@
 pretty standard setup that you get from `npm init playwright@latest`
 
-```json
-{
-  "scripts": {
-    "playwright": "DEBUG=pw:webserver npx playwright test flow/open-account-regular ",
-  }
-}
-```
-added the DEBUG env var to see logging of the wds server startup while running playwright
-
-the WDS setup is in [here](web-dev-server.md)
-
 ```typescript
 import { defineConfig, devices } from '@playwright/test';
 
@@ -56,3 +45,20 @@ export default defineConfig({
   },
 });
 ```
+
+`package.json`
+```json
+{
+  "scripts": {
+    "playwright": "DEBUG=pw:webserver npx playwright test flow/open-account-regular ",
+    "playwright:headed": "DEBUG=pw:webserver npx playwright test flow/open-account-regular --headed",
+    "playwright:ui": "npx playwright test flow/open-account-regular --ui",
+  }
+}
+```
+added the DEBUG env var to see logging of the wds server startup while running playwright
+
+for convinience and to inform your mates I added the 2 options with `--headed` and `--ui`. Use the ui to develop your tests
+
+the WDS setup is in [here](web-dev-server.md)
+

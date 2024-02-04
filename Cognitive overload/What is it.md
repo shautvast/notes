@@ -10,6 +10,8 @@ While this is ultimately inevitable, help in the form of clear borders and maps 
 
 All true and helpful but cognitive load is a bigger concept. 
 
+Consider the increasing amount of stuff that some organizations impose upon us poor developers.
+
 Suppose you work on a small microservice that you know well because it’s small in the number of both functions and actual lines of code. Its overall function within the larger organization is also clear. The architects have done their job well. 
 
 Suppose you have to add a new function that interacts with a different service. It could for instance fetch some data that is then added to the output of your own api. This is a very common situation when working with micro services. 
@@ -47,6 +49,7 @@ And my answer is:
 
 YES YES YES
 
-And then I go: OMG I don’t have the time for that! 
+And then I go: OMG another bucket of work into the overflowing backlog. 
+The business isn’t happy. Shifting timelines. 
 
 There is room for 1 big rewrite this year because of, reasons and 

@@ -51,5 +51,3 @@ YES YES YES
 
 And then I go: OMG another bucket of work into the overflowing backlog. 
 The business isn’t happy. Shifting timelines. 
-
-There is room for 1 big rewrite this year because of, reasons and 

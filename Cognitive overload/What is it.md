@@ -1,11 +1,18 @@
-Bureaucratic cognitive load
+### What is cognitive load?
 
+Team topologies:
+_While there is no formula for cognitive load, we can assess the number and relative complexity (internal to the organization) of domains for which a given team is responsible._
+
+
+
+#### Bureaucratic cognitive load
+
+This article 
 https://teotti.com/cognitive-overload-in-software-development/
 
- Focuses on the architectural aspect of it 
- Ie some applications contain different functions that are not clearly divided into modules
+Focuses on the architectural aspect of it in that it states that some applications contain different functions that are not clearly divided into modules
 
- For developers that have worked with it extensively that is not a problem but for new employees this increases the cognitive load. For them the application is just one big blob of stuff. After a while working with it patterns emerge. The landscape slowly becomes navigable. 
+For developers that have worked with it for a while that is not a problem anymore but for new employees this increases the cognitive load. For them the application is just one big blob of stuff. After a while working with it patterns emerge. The landscape slowly becomes navigable. 
 While this is ultimately inevitable, help in the form of clear borders and maps or signposts in or around the code are helpful. Microservices are natural borders, like modules or packages. 
 
 All true and helpful but cognitive load is a bigger concept. 

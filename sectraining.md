@@ -57,3 +57,59 @@ Importantly, developers should enforce User Interaction based CSRF Defense:
 Re-Authentication (password or stronger)
 One-time Token
 CAPTCHA
+
+```java
+public class CSRF {
+	public static String getToken() throws NoSuchAlgorithmException{
+	    // generate random data
+	    SecureRandom secureRandom = SecureRandom.getInstance("SHA1PRNG");
+	    byte[] data = new byte[16];
+	    secureRandom.nextBytes(data);
+
+	    // convert to Base64 string
+	    return Base64.getEncoder().encodeToString(data);
+	}
+}
+```
+
+```jsp
+<%
+// generate a random CSRF token
+String csrfToken = CSRF.getToken();
+
+// place the CSRF token in a cookie
+javax.servlet.http.Cookie cookie = new javax.servlet.http.Cookie("csrf", csrfToken);
+response.addCookie(cookie);
+%>
+
+<form action="/action" method="POST">
+  <input type="hidden" name="csrfToken" value="<%= csrfToken %>"/>
+</form>
+```
+
+```java
+public void doAction(HttpServletRequest request, HttpServletResponse response) {
+	// get the CSRF cookie
+	String csrfCookie = null;
+	for (Cookie cookie : request.getCookies()) {
+		if (cookie.getName().equals("csrf")) {
+			csrfCookie = cookie.getValue();
+		}
+	}
+
+	// get the CSRF form field
+	String csrfField = request.getParameter("csrfToken");
+
+	// validate CSRF
+	if (csrfCookie == null || csrfField == null || !csrfCookie.equals(csrfField)) {
+		try {
+			response.sendError(401);
+		} catch (IOException e) {
+			// ...
+		}
+		return;
+	}
+
+	// ...
+}
+```

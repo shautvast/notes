@@ -269,3 +269,149 @@ try {
 DocumentBuilder safebuilder = dbf.newDocumentBuilder();
 ```
 
+#### XMLInputFactory (a StAX parser)
+
+```java
+xmlInputFactory.setProperty(XMLInputFactory.SUPPORT_DTD, false); 
+// disable external entities
+xmlInputFactory.setProperty("javax.xml.stream.isSupportingExternalEntities", false);
+```
+
+#### TransformerFactory
+
+```java
+TransformerFactory tf = TransformerFactory.newInstance();
+tf.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+tf.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
+```
+
+#### Validator
+
+```java
+SchemaFactory factory = SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+Schema schema = factory.newSchema();
+Validator validator = schema.newValidator();
+validator.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+validator.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
+```
+
+#### SchemaFactory
+
+```java
+SchemaFactory factory = SchemaFactory.newInstance("http://www.w3.org/2001/XMLSchema");
+factory.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+factory.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
+Schema schema = factory.newSchema(Source);
+```
+
+#### SAXTransformerFactory
+
+```java
+SAXTransformerFactory sf = SAXTransformerFactory.newInstance();
+sf.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+sf.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
+sf.newXMLFilter(Source);
+```
+
+1. javax.xml.XMLConstants.ACCESS_EXTERNAL_DTD
+2. javax.xml.XMLConstants.ACCESS_EXTERNAL_SCHEMA
+3. javax.xml.XMLConstants.ACCESS_EXTERNAL_STYLESHEET
+
+#### XMLReader
+
+```java
+XMLReader reader = XMLReaderFactory.createXMLReader();
+reader.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+// This may not be strictly required as DTDs shouldn't be allowed at all, per previous line.
+reader.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false); 
+reader.setFeature("http://xml.org/sax/features/external-general-entities", false);
+reader.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+```
+
+#### SAXReader
+
+```java
+saxReader.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+saxReader.setFeature("http://xml.org/sax/features/external-general-entities", false);
+saxReader.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+```
+
+#### SAXBuilder
+
+```java
+SAXBuilder builder = new SAXBuilder();
+builder.setFeature("http://apache.org/xml/features/disallow-doctype-decl",true);
+builder.setFeature("http://xml.org/sax/features/external-general-entities", false);
+builder.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+Document doc = builder.build(new File(fileName));
+```
+
+No-op EntityResolver
+For APIs that take an EntityResolver, you can neutralize an XML parser's ability to resolve entities by supplying a no-op implementation:
+
+```java
+public final class NoOpEntityResolver implements EntityResolver {
+    public InputSource resolveEntity(String publicId, String systemId) {
+        return new InputSource(new StringReader(""));
+    }
+}
+
+xmlReader.setEntityResolver(new NoOpEntityResolver());
+documentBuilder.setEntityResolver(new NoOpEntityResolver());
+```
+
+#### JAXB Unmarshaller
+
+```java
+SAXParserFactory spf = SAXParserFactory.newInstance();
+spf.setFeature("http://xml.org/sax/features/external-general-entities", false);
+spf.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+spf.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+
+//Do unmarshall operation
+Source xmlSource = new SAXSource(spf.newSAXParser().getXMLReader(), 
+                                new InputSource(new StringReader(xml)));
+JAXBContext jc = JAXBContext.newInstance(Object.class);
+Unmarshaller um = jc.createUnmarshaller();
+um.unmarshal(xmlSource);
+```
+
+#### XPathExpression
+
+```java
+DocumentBuilderFactory df = DocumentBuilderFactory.newInstance();
+df.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
+df.setAttribute(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
+DocumentBuilder builder = df.newDocumentBuilder();
+String result = new XPathExpression().evaluate( builder.parse(
+                            new ByteArrayInputStream(xml.getBytes())) );
+java.beans.XMLDecoder
+The readObject() method in this class is fundamentally unsafe. Not only is the XML it parses subject to XXE, but the method can be used to construct any Java object, and execute arbitrary code as described here. Importantly, there is no way to make safe use of this class except to trust or properly validate the input being passed into it. As such, we strongly recommend completely avoiding the use of this class and replacing it with a safe or properly configured XML parser as described elsewhere in this cheat sheet.
+```
+
+#### Spring Framework MVC/OXM XXE Vulnerabilities
+
+For example, some XXE vulnerabilities were found in Spring OXM and Spring MVC. The following versions of the Spring Framework are vulnerable to XXE:
+
+3.0.0 to 3.2.3 (Spring OXM & Spring MVC)
+4.0.0.M1 (Spring OXM)
+4.0.0.M1-4.0.0.M2 (Spring MVC)
+There were other issues as well that were fixed later, so to fully address these issues, Spring recommends you upgrade to Spring Framework 3.2.8+ or 4.0.2+.
+For Spring OXM, this is referring to the use of org.springframework.oxm.jaxb.Jaxb2Marshaller. Note that the CVE for Spring OXM specifically indicates that 2 XML parsing situations are up to the developer to get right, and 2 are the responsibility of Spring and were fixed to address this CVE.
+Here's what they say:
+Two situations developers must handle:
+
+For a DOMSource, the XML has already been parsed by user code, and that code is responsible for protecting against XXE.
+For a StAXSource, the XMLStreamReader has already been created by user code, and that code is responsible for protecting against XXE.
+The issue Spring fixed:
+For SAXSource and StreamSource instances, Spring processed external entities by default, thereby creating this vulnerability.
+Here's an example of using a StreamSource that was vulnerable, but is now safe, if you are using a fixed version of Spring OXM or Spring MVC:
+
+```java
+import org.springframework.oxm.Jaxb2Marshaller;
+import org.springframework.oxm.jaxb.Jaxb2Marshaller;
+
+Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
+// Must cast return Object to whatever type you are unmarshalling
+marshaller.unmarshal(new StreamSource(new StringReader(some_string_containing_XML));
+```

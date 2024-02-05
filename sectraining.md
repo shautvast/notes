@@ -22,10 +22,10 @@ JavaScript frameworks (e.g., Angular, React) or server-side templating systems (
 
 |context|vulnerable code | java |
 |---|---|---|
-|HTML Body	|<div>USER-CONTROLLED-DATA</div>	| `Encode.forHtml` |
-|HTML Attribute|	<input type="text" value="USER-CONTROLLED-DATA">	|`Encode.forHtmlAttribute`|
-|URL Parameter|	<a href="/search?value=USER-CONTROLLED-DATA">Search</a>	|`Encode.forUriComponent`|
-|CSS String	|<div style="width: USER-CONTROLLED-DATA;">Selection</div>|	`Encode.forCssString`|
-|CSS URL|	<div style="background: USER-CONTROLLED-DATA ">	|`Encode.forCssUrl`|
-|JavaScript Block	|<script>alert("USER-CONTROLLED-DATA")</script>|	`Encode.forJavaScriptBlock`|
-|JavaScript Variable	|<button onclick="alert('USER-CONTROLLED-DATA');">click me</button>	|`Encode.forJavaScriptVariable`|
+|HTML Body	|&lt;div>USER-CONTROLLED-DATA</div>	| `Encode.forHtml` |
+|HTML Attribute|	&lt;input type="text" value="USER-CONTROLLED-DATA">	|`Encode.forHtmlAttribute`|
+|URL Parameter|	&lt;a href="/search?value=USER-CONTROLLED-DATA">Search</a>	|`Encode.forUriComponent`|
+|CSS String	|&lt;div style="width: USER-CONTROLLED-DATA;">Selection</div>|	`Encode.forCssString`|
+|CSS URL|	&lt;div style="background: USER-CONTROLLED-DATA ">	|`Encode.forCssUrl`|
+|JavaScript Block	|&lt;script>alert("USER-CONTROLLED-DATA")</script>|	`Encode.forJavaScriptBlock`|
+|JavaScript Variable	|&lt;button onclick="alert('USER-CONTROLLED-DATA');">click me</button>	|`Encode.forJavaScriptVariable`|

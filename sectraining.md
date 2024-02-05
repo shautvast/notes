@@ -415,3 +415,46 @@ Jaxb2Marshaller marshaller = new Jaxb2Marshaller();
 // Must cast return Object to whatever type you are unmarshalling
 marshaller.unmarshal(new StreamSource(new StringReader(some_string_containing_XML));
 ```
+
+### Unsafe Deserialization
+
+#### prevention
+
+```java
+ObjectInputStream objectInputStream = new ObjectInputStream(buffer);
+stream.setObjectInputFilter(MyFilter::myFilter);
+```
+
+together with
+
+```java
+public class MyFilter {
+    static ObjectInputFilter.Status myFilter(ObjectInputFilter.FilterInfo info) {
+        Class<?> serialClass = info.serialClass();
+        if (serialClass != null) {
+            return serialClass.getName().equals(MyClass.class.getName())
+                    ? ObjectInputFilter.Status.ALLOWED
+                    : ObjectInputFilter.Status.REJECTED;
+        }
+        return ObjectInputFilter.Status.UNDECIDED;
+    }
+}
+```
+
+OR
+
+```java
+public class MyFilteringInputStream extends ObjectInputStream {
+    public MyFilteringInputStream(InputStream inputStream) throws IOException {
+        super(inputStream);
+    }
+
+    @Override
+    protected Class<?> resolveClass(ObjectStreamClass objectStreamClass) throws IOException, ClassNotFoundException {
+        if (!objectStreamClass.getName().equals(MyClass.class.getName())) {
+            throw new InvalidClassException("Forbidden class", objectStreamClass.getName());
+        }
+        return super.resolveClass(objectStreamClass);
+    }
+}
+```

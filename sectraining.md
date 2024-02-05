@@ -113,3 +113,15 @@ public void doAction(HttpServletRequest request, HttpServletResponse response) {
 	// ...
 }
 ```
+
+### Open Redirect
+
+#### Java Prevention
+Unless the development is aided by third-party libraries, developers must implement their own solution to determine whether the user-controlled string represents a local path or not. If the list of permitted URLs for redirection is known, implement an allow list of such URLs.
+
+Otherwise, an easy ad hoc solution could be the following:
+```java
+private static boolean isLocal(String path) {
+    return path.startsWith("/") && !path.startsWith("//");
+}
+```

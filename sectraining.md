@@ -20,7 +20,7 @@ JavaScript frameworks (e.g., Angular, React) or server-side templating systems (
 
 #### Java
 
-|type| java |
+|context|vulnerable code | java |
 |---|---|---|
 |HTML Body	|<div>USER-CONTROLLED-DATA</div>	| `Encode.forHtml` |
 |HTML Attribute|	<input type="text" value="USER-CONTROLLED-DATA">	|`Encode.forHtmlAttribute`|

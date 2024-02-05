@@ -20,9 +20,15 @@ JavaScript frameworks (e.g., Angular, React) or server-side templating systems (
 
 #### Java
 HTML Body	<div>USER-CONTROLLED-DATA</div>	`Encode.forHtml`
+
 HTML Attribute	<input type="text" value="USER-CONTROLLED-DATA">	`Encode.forHtmlAttribute`
+
 URL Parameter	<a href="/search?value=USER-CONTROLLED-DATA">Search</a>	`Encode.forUriComponent`
+
 CSS String	<div style="width: USER-CONTROLLED-DATA;">Selection</div>	`Encode.forCssString`
+
 CSS URL	<div style="background: USER-CONTROLLED-DATA ">	`Encode.forCssUrl`
+
 JavaScript Block	<script>alert("USER-CONTROLLED-DATA")</script>	`Encode.forJavaScriptBlock`
+
 JavaScript Variable	<button onclick="alert('USER-CONTROLLED-DATA');">click me</button>	`Encode.forJavaScriptVariable`

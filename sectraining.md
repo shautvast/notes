@@ -154,3 +154,37 @@ public class AdminService {
     ...
 }
 ```
+
+
+### Server-Side Request Forgery
+
+Vulnerable Example
+
+```java
+private static String fetchRemoteObject(String location) throws Exception {
+    URL url = new URL(location);
+    URLConnection connection = url.openConnection();
+    BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+    String body = reader.lines().collect(Collectors.joining());
+    return body;
+}
+```
+
+#### solution
+
+```java
+private static String fetchRemoteObject(String location) throws Exception {
+    URL url = new URL(location);
+
+    if (!url.getHost().endsWith(".example.com") ||
+        !url.getProtocol().equals("http") &&
+        !url.getProtocol().equals("https")) {
+        throw new Exception("Forbidden remote source");
+    }
+
+    URLConnection connection = url.openConnection();
+    BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+    String body = reader.lines().collect(Collectors.joining());
+    return body;
+}
+```

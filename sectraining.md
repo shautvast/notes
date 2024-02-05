@@ -232,3 +232,5 @@ or
   &xxe;
 </foo>
 ```
+
+_Just who invented these unnecessary attack vectors_ Or was this deemed useful at the time? I certainly never used it, or thought this would come in handy...

@@ -19,6 +19,8 @@ To prevent non-HTML HTTP responses from embedding data, that might be dangerousl
 JavaScript frameworks (e.g., Angular, React) or server-side templating systems (e.g., Go Templates) have robust built-in protections against Reflected Cross-Site Scripting.
 
 #### Java
+
+|type| java |
 |---|---|
 |HTML Body	<div>USER-CONTROLLED-DATA</div>	| `Encode.forHtml` |
 |HTML Attribute	<input type="text" value="USER-CONTROLLED-DATA">	`Encode.forHtmlAttribute`|

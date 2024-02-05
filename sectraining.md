@@ -29,3 +29,31 @@ JavaScript frameworks (e.g., Angular, React) or server-side templating systems (
 |CSS URL|	&lt;div style="background: USER-CONTROLLED-DATA ">	|`Encode.forCssUrl`|
 |JavaScript Block	|&lt;script>alert("USER-CONTROLLED-DATA")</script>|	`Encode.forJavaScriptBlock`|
 |JavaScript Variable	|&lt;button onclick="alert('USER-CONTROLLED-DATA');">click me</button>	|`Encode.forJavaScriptVariable`|
+
+### Cross-Site Request Forgery
+#### Prevention
+A number of code patterns that prevent CSRF attacks exist, and more than one can be applied at the same time as part of a defence in depth security strategy.
+
+Developers should require anti-forgery tokens for any unsafe methods (POST, PUT, DELETE) and ensure that safe methods (GET, HEAD) do not have any side effects.
+
+Developers should consider implementing a Synchronizer Token Pattern:
+
+A random token is generated server-side upon successful authentication and associated with the user's session. The token is returned to the user as part of an HTML response (e.g. a hidden field in a form or retrieved by AJAX).
+
+When the user needs to perform a sensitive operation, the token is included in the request. The application verifies the correctness of the token, and then performs the requested action only if the token in the request matches the token stored in the user's session.
+
+If maintaining the state for a CSRF token at the server side is problematic, developers can adopt the Double Submit Cookie Pattern. This is an easy to implement, stateless alternative that assigns a random value to both a cookie, and a request parameter, with the server verifying if the cookie value and request value match:
+
+The client requests an HTML page that contains a form.
+The server includes two tokens in the response. One token is sent as a cookie. The other is placed in a hidden form field. The tokens are generated randomly so that an adversary cannot guess the values.
+When the client submits the form, it must send both tokens back to the server. The client sends the cookie token as a cookie, and it sends the form token inside the form data.
+If a request does not include both tokens, the server disallows the request.
+If the origin header is present, developers should verify that its value matches the target origin. Unlike the Referer, the Origin header will be present in HTTP requests that originate from an HTTPS URL.
+
+If the origin header is not present, developers should verify that the hostname in the Referer header matches the target origin. This method of CSRF mitigation is also commonly used with unauthenticated requests, such as requests made prior to establishing a session state, which is required to keep track of a synchronization token.
+
+Importantly, developers should enforce User Interaction based CSRF Defense:
+
+Re-Authentication (password or stronger)
+One-time Token
+CAPTCHA

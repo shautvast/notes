@@ -234,3 +234,38 @@ or
 ```
 
 _Just who invented these unnecessary attack vectors_ Or was this deemed useful at the time? I certainly never used it, or thought this would come in handy...
+
+#### Prevention
+
+```java
+DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+String FEATURE = null;
+try {
+    FEATURE = "http://apache.org/xml/features/disallow-doctype-decl";
+    dbf.setFeature(FEATURE, true);
+
+    FEATURE = "http://xml.org/sax/features/external-general-entities";
+    dbf.setFeature(FEATURE, false);
+
+    FEATURE = "http://xml.org/sax/features/external-parameter-entities";
+    dbf.setFeature(FEATURE, false);
+
+    FEATURE = "http://apache.org/xml/features/nonvalidating/load-external-dtd";
+    dbf.setFeature(FEATURE, false);
+
+    dbf.setXIncludeAware(false);
+    dbf.setExpandEntityReferences(false);
+   
+} catch (ParserConfigurationException e) {
+    logger.info("ParserConfigurationException was thrown. The feature '" + FEATURE 
+    + "' is probably not supported by your XML processor.");
+} catch (SAXException e) {
+    logger.warning("A DOCTYPE was passed into the XML document");
+} catch (IOException e) {
+    logger.error("IOException occurred, XXE may still possible: " + e.getMessage());
+}
+
+// Load XML file or stream using a XXE agnostic configured parser
+DocumentBuilder safebuilder = dbf.newDocumentBuilder();
+```
+

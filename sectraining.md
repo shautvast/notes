@@ -125,3 +125,32 @@ private static boolean isLocal(String path) {
     return path.startsWith("/") && !path.startsWith("//");
 }
 ```
+
+### Broken Authorization
+
+#### prevention in java (spring boot)
+
+```java
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    @Override
+    protected void configure(HttpSecurity security) throws Exception {
+        http
+          .authorizeRequests()
+          .antMatchers("/admin/**").hasRole("ROLE_ADMIN");
+    }
+    ...
+}
+```
+
+and
+
+```java
+@Service
+public class AdminService {
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public List<Organization> findAllOrganizations() { ... }
+    ...
+}
+```

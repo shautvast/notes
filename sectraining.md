@@ -32,6 +32,9 @@ JavaScript frameworks (e.g., Angular, React) or server-side templating systems (
 
 ### Cross-Site Request Forgery
 #### Prevention
+
+[synchronizer token pattern](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html#synchronizer-token-pattern)
+
 A number of code patterns that prevent CSRF attacks exist, and more than one can be applied at the same time as part of a defence in depth security strategy.
 
 Developers should require anti-forgery tokens for any unsafe methods (POST, PUT, DELETE) and ensure that safe methods (GET, HEAD) do not have any side effects.

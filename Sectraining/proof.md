@@ -15,7 +15,7 @@ curl 'http://localhost:5000/update' \
   --data-raw 'color=yellow2'
 ```
 
-## ## blabla1337/owasp-skf-lab:java-cmd
+## blabla1337/owasp-skf-lab:java-cmd
 
 docker run -p5000:5000 blabla1337/owasp-skf-lab:java-cmd
 

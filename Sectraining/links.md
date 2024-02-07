@@ -5,7 +5,7 @@ All provided links
 | standard malware strings |  https://www.eicar.org/download-anti-malware-testfile/ |
 | OKTA security fundamentals|  https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization |
 | ZAP tool | https://www.zaproxy.org/|
-| How to intercept HTTP requests and responses using Burp Suite |  https://youtu.be/ouDe5sJ_uC8|
+| using Burp Suite |  https://youtu.be/ouDe5sJ_uC8|
 | Burpsuite Basics |  https://youtu.be/G3hpAeoZ4ek|
 | XML external entities | https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.md|
 | BURP tool | https://portswigger.net/burp/communitydownload|

@@ -8,7 +8,7 @@ All provided links
 | How to intercept HTTP requests and responses using Burp Suite |  https://youtu.be/ouDe5sJ_uC8|
 | Burpsuite Basics |  https://youtu.be/G3hpAeoZ4ek|
 | XML external entities | https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.md|
-| BURP tool  https://portswigger.net/burp/communitydownload|
+| BURP tool | https://portswigger.net/burp/communitydownload|
 | vulnerable demo apps | https://hub.docker.com/r/blabla1337/owasp-skf-lab/tags?page=1&name=java|
 | ING security academy | https://academy.ing.net/learn/security-blue/academy/tools/README#3|
 | ING security academy exam | https://academy.ing.net/learn/security-blue/4/academy/exam/README#2|

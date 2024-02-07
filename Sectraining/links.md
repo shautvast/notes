@@ -1,7 +1,7 @@
 All provided links
 | name | url |
 |---|---|  
-|securelab knowledgebase | https://knowledge-base.secureflag.com/ |
+| secureflag knowledgebase | https://knowledge-base.secureflag.com/ |
 | standard malware strings |  https://www.eicar.org/download-anti-malware-testfile/ |
 | OKTA security fundamentals|  https://auth0.com/docs/get-started/identity-fundamentals/authentication-and-authorization |
 | ZAP tool | https://www.zaproxy.org/|

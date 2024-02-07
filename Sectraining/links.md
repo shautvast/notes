@@ -19,7 +19,7 @@ All provided links
 | SSRF video | https://www.youtube.com/watch?v=ih5R_c16bKc|
 | CSRF video | https://www.youtube.com/watch?v=7bTNMSqCMI0|
 | exploits | https://www.exploit-db.com/|
-| https://book.hacktricks.xyz/welcome/readme|
+| hacktricks | https://book.hacktricks.xyz/welcome/readme|
 | sonar | https://rules.sonarsource.com/|
 | packet storm security | https://packetstormsecurity.com/|
 | sec news| https://thehackernews.com/|

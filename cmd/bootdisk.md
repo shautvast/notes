@@ -1,5 +1,9 @@
 # create a bootable disk
-1. sudo fdisk -l
+
+```bash
+sudo fdisk -l
+```
+
 ```
 Disk /dev/sdc: 58,98 GiB, 63333990400 bytes, 123699200 sectors
 Disk model: Flash Disk      

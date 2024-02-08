@@ -25,3 +25,13 @@ df
 sudo umount /dev/sdc1
 sudo umount /dev/sdc4
 ```
+
+```bash
+sudo mkfs.vfat /dev/sdc
+```
+
+```bash
+sudo dd bs=4M if=kali-linux-2023.4-installer-amd64.iso of=/dev/sdc status=progress oflag=sync
+```
+
+

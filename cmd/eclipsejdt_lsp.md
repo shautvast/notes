@@ -1,3 +1,4 @@
+```bash
 java -jar plugins/org.eclipse.equinox.launcher_1.6.700.v20231214-2017.jar \\
   -Declipse.application=org.eclipse.jdt.ls.core.id1 \\
   -Dosgi.bundles.defaultStartLevel=4 \\
@@ -9,6 +10,6 @@ java -jar plugins/org.eclipse.equinox.launcher_1.6.700.v20231214-2017.jar \\
   --add-opens java.base/java.lang=ALL-UNNAMED \\
   -configuration ./config_mac \\
   -data .
-
+```
   \# -data needs local workspace
   

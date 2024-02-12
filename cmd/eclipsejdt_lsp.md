@@ -10,5 +10,5 @@ java -jar plugins/org.eclipse.equinox.launcher_1.6.700.v20231214-2017.jar \
   -configuration ./config_mac \
   -data .
 
-  # -data needs local workspace
+  \# -data needs local workspace
   

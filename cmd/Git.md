@@ -1,7 +1,7 @@
 - Prune local branches: `git fetch -p`
 - start maintenance: `git maintenance start`
 - 'real blame': `git blame -w -C -C -C`
-equivalent in intellij
+equivalent in intellij (not really sure it's completely equivalent, maybe it's just -C -C)
 <img width="546" alt="image" src="https://github.com/shautvast/notes/assets/3645743/ea6a901a-2d4d-42ea-9858-594827ae66ea">
 
 MAN:

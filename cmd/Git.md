@@ -1,2 +1,2 @@
-- Prune local branches: git fetch -p
-- 
+- Prune local branches: `git fetch -p`
+- start maintenance: `git maintenance start`

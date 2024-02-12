@@ -28,5 +28,5 @@ OsString::from("--add-opens java.base/java.lang=ALL-UNNAMED"),
 OsString::from("-configuration"),
 OsString::from("/../jdt-language-server-1.31.0-202401111522/config_mac_arm"),
 OsString::from("-data"),
-OsString::from("/Users/FJ19WK/Developer/SH/dbmaker"),
+OsString::from("{project}"),
 ```

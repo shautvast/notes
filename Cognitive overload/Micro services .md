@@ -1,0 +1,7 @@
+Teams working on multiple codebases lack ownership and, especially the mental space to understand and keep the corresponding systems healthy.
+
+Team topologies
+
+So micro services driven too far so that working on a single service is not enough to keep a team busy. I work on multiple code bases and while they are very much in the same domain and have a lot of commonalities, it’s then that the small differences start to stick out like sore thumbs. 
+
+Like 2 frontends for the same functionality, but one is for external customers and the other for internal employees working in branches. They are built using the same ui stack, but have a different philosophy for automated testing. One uses mocks from a mocked backend api while the other uses client side code to avoid server lookups. The release procedure changed for 1 but not for the other because of reasons. So now you have to think what’s the procedure again? This is often the way it goes, change happens for 1 but because of lack of priority and less urgency not for the other, so now you have to maintain 2 varieties. From architecture, design, processes down to the level of the code, the configuration items (naming). Everything increases the cognitive load and the chance of fuckups

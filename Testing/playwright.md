@@ -9,5 +9,5 @@ in je pipelines, maar (2) ook headed, dan zie je (zoals altijd met dit soort too
 modus. Dit opent een window waarin je individuele tests af kunt trappen, en je ziet als in een video editing tool de individuele frames naast elkaar staan, 
 wat je de mogelijkheid geeft heen en weer in de tijd te gaan. En dan krijg je meer dan alleen een screenshot, je krijgt de pagina zelf (!) en daarbinnen
 de mogelijkheid _locators_ uit te proberen. 
-De workflow is daarmee zó veel lekkerder dan met andere tools. Daar ben je steeds aan het wijzigen, en dan moet je maar hopen dat de volgende testrun slaagt. 
-
+De workflow is daarmee zó veel lekkerder dan met andere tools. Daar ben je steeds aan het wijzigen, en dan moet je maar hopen dat de volgende testrun slaagt.
+Ik voeg in intellij een nieuwe test toe (typescript). Die verschijnt automatisch in de nog draaiende UI en ik trap hem af.

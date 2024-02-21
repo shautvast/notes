@@ -26,7 +26,7 @@ struct WebView: UIViewRepresentable {
         let source = "function captureLog(msg) { window.webkit.messageHandlers.logHandler.postMessage(msg); } window.console.log = captureLog;"
         let script = WKUserScript(source: source, injectionTime: .atDocumentEnd, forMainFrameOnly: false)
         webView.configuration.userContentController.addUserScript(script)
-        // register the bridge script that listens for the output
+        
         webView.configuration.userContentController.add(Controller(), name: "logHandler")
         
         return webView

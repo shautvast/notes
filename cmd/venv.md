@@ -3,7 +3,7 @@
 * create $PROJECT `mkdir project; cd project`
 * create `python -m venv .venv`
 * activate `source .venv/bin/activate` 
-* `deactivate`
+
 * create pyrightconfig.json
 ```json
 {
@@ -15,3 +15,4 @@
 * `zed .`
 
 
+* to quit the venv: `deactivate`

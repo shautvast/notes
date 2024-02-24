@@ -1,7 +1,7 @@
 ## Vegan glutenvrij bladerdeeg
 
 * 175 g char B meel 
-* 75 wit Ted meel of amandel meel 
+* 75 wit teffmeel of amandelmeel 
 * 100 g haver meel 
 * 50 g koude boter
 * 200 koud water

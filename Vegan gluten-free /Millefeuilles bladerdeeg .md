@@ -11,4 +11,4 @@ Mais meel
  200 g koude boter 
 
  Verder zoals normaal bladerdeeg
- ![image](https://github.com/shautvast/notes/assets/3645743/0b769d80-053b-446b-a62a-855ce93ffc23)
+ ![image](https://github.com/shautvast/notes/assets/3645743/0b769d80-053b-446b-a62a-855ce93ffc23| width=400)

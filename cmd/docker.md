@@ -1,6 +1,6 @@
 ### never forget
 * docker inspect [image]
-* docker history --no-capture [image]
+* docker history --no-truncate [image]
 * docker run -it [image] /bin/sh
 * docker exec -it [image] /bin/sh
 * -p [HOST-port]:[CONTAINER-port] 

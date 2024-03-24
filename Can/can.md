@@ -6,7 +6,7 @@ it has no boards. As the official history explains the ship was sunk by the Russ
 where young Holger Schüring, that's his Dutch name, would grow up and found his love of music.
 
 He is of the same generation as the fictional composer Hermann Simon in Edgar Reitz' Heimat. Born out of the shadow of WWII, thoroughly educated on
-Bachisch counterpoints, too smart for his teachers, discovering new ways in 
+Bachisch counterpoints, too smart for his teachers, discovering new ways in experimental music
 
 --
 

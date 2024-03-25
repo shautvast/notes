@@ -59,7 +59,7 @@ Association, Sun Ra,
 Scientists, Royal Trux, 10cc,
 Eric B. and Rakim, Index, Basic
 Channel, Soulsonic Force ("just
-he me!"), Juan Atkins, David
+hit me!"), Juan Atkins, David
 Axelrod, Electric Prunes, Gil!
 Scott! Heron!, the Slits, Faust,
 Mantronix, Pharaoh Sanders and
@@ -67,4 +67,6 @@ the Fire Engines, the Swans, the
 Soft Cell, the Sonics, the Sonics,
 the Sonics, the Sonics.
 ```
+Who is that 'Niagra'? Should that be 'Niagara', a French outfit from the eighties? I admit I did not know them, but they sound a lot like Les 
+Rita Mitsouko, who I still like better ;) I found them by accident in the library where at the time they lent out LP's, that I would then routinely copy to cassette. 
 

@@ -33,12 +33,14 @@ next day. Or the one in the years after. The whole project was described by Jame
 too scared to do anything meaningful. His name dropping is awesome:
 'But I was there
 I was there in 1968.
+
 I was there at the first Can show in Cologne.
+
+...
+I was there in 1974 at the first Suicide practices in a loft in New York City.
 ...
 I was there when Captain Beefheart started up his first band.
 ...
 This Heat, Pere Ubu
 Gil Scott Heron
 
-
-get out there a

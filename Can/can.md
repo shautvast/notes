@@ -27,3 +27,18 @@ On the question of his nationality, Holger once said: "That I am German is a fal
 my whole person is a falsification. This happened because my grandfather told the nazis that we must be Aryan. And he made a kind of family tree. And his family tree was just born from fantasy, with no basis behind it. It looked nice..."
 
 --
+
+The nice thing about LCD Soundsystem is that it's not about boys drunk on testosterone going out on a Friday night. It rather hints at the hangover
+next day. Or the one in the years after. The whole project was described by James Murphy as an attempt to make something out of his life after reading Infinite Jest by David Foster Wallace and feeling inadequate for not having achieved anything yet. Just spent years wasting time in resentment, 
+too scared to do anything meaningful. His name dropping is awesome:
+'But I was there
+I was there in 1968.
+I was there at the first Can show in Cologne.
+...
+I was there when Captain Beefheart started up his first band.
+...
+This Heat, Pere Ubu
+Gil Scott Heron
+
+
+get out there a

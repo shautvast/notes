@@ -31,16 +31,40 @@ my whole person is a falsification. This happened because my grandfather told th
 The nice thing about LCD Soundsystem is that it's not about boys drunk on testosterone going out on a Friday night. It rather hints at the hangover
 next day. Or the one in the years after. The whole project was described by James Murphy as an attempt to make something out of his life after reading Infinite Jest by David Foster Wallace and feeling inadequate for not having achieved anything yet. Just spent years wasting time in resentment, 
 too scared to do anything meaningful. His name dropping is awesome:
-'But I was there
+```
+But I was there
 I was there in 1968.
-
-I was there at the first Can show in Cologne.
-
+I was there at the first Can show
+in Cologne.
 ...
-I was there in 1974 at the first Suicide practices in a loft in New York City.
+I was there in 1974 at the first
+Suicide practices in a loft in New
+York City.
 ...
-I was there when Captain Beefheart started up his first band.
+I was there when Captain
+Beefheart started up his first band.
 ...
-This Heat, Pere Ubu
-Gil Scott Heron
+This Heat, Pere Ubu, Outsiders,
+Nation of Ulysses, Mars, The
+Trojans, The Black Dice, Todd
+Terry, The Germs, Section25,
+Althea and Donna, Sexual
+Harrassment, a-ha, Pere Ubu,
+Dorothy Ashby, PIL, the fania All-
+Stars, the Bar-Kays, the Human
+League, the Normal, Lou Reed,
+Scott Walker, Monks, Niagra,
+Joy Division, Lower48, the
+Association, Sun Ra,
+Scientists, Royal Trux, 10cc,
+Eric B. and Rakim, Index, Basic
+Channel, Soulsonic Force ("just
+he me!"), Juan Atkins, David
+Axelrod, Electric Prunes, Gil!
+Scott! Heron!, the Slits, Faust,
+Mantronix, Pharaoh Sanders and
+the Fire Engines, the Swans, the
+Soft Cell, the Sonics, the Sonics,
+the Sonics, the Sonics.
+```
 

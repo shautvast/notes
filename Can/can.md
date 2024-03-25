@@ -25,4 +25,5 @@ Holger lived in the same street (?)
 
 On the question of his nationality, Holger once said: "That I am German is a falsification. That I am Polish is  a falsification. That means that
 my whole person is a falsification. This happened because my grandfather told the nazis that we must be Aryan. And he made a kind of family tree. And his family tree was just born from fantasy, with no basis behind it. It looked nice..."
+
 --

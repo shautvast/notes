@@ -12,3 +12,6 @@ returns
 --> which you can parse to get a list of dependencies and their absolute path
 -DincludeScope=compile
 -DincludeScope=test
+
+* force x86 on apple silicon
+`-Dos.arch=x86_64`

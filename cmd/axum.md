@@ -1,6 +1,7 @@
 Setup for axum serving static files and a rest API, using axum
 * took me a while to get right, but now it's no use anymore
 * assumes static files in ./assets
+* handles the mimetypes
 
 ```rust
 use axum::body::Body;

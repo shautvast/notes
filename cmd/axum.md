@@ -2,6 +2,7 @@ Setup for axum serving static files and a rest API, using axum
 * took me a while to get right, but now it's no use anymore
 * assumes static files in ./assets
 * handles the mimetypes
+* the api may seem weird: it accepts a path param called `rgb_hex` and serves an image that is closest to that color (that code not here)
 
 ```rust
 use axum::body::Body;

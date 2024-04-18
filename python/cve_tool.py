@@ -3,7 +3,17 @@
 # read and parse whitelist.yaml file
 # lookup all CVE's mentioned
 # generate a list of fix versions
-
+##
+# requirements.txt
+##
+# certifi==2024.2.2
+# charset-normalizer==3.3.2
+# idna==3.7
+# jq==1.7.0
+# PyYAML==6.0.1
+# requests==2.31.0
+# urllib3==2.2.1
+###
 import yaml
 import sys
 import requests

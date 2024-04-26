@@ -14,3 +14,4 @@
 14. Do 4-4
 15. Do 11-4 + overnachting
 16. Do 18-4
+17. Do 25-4

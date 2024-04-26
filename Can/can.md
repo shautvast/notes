@@ -70,3 +70,6 @@ the Sonics, the Sonics.
 Who is that 'Niagra'? Should that be 'Niagara', a French outfit from the eighties? I admit I did not know them, but they sound a lot like Les 
 Rita Mitsouko, who I still like better ;) I found them by accident in the library where at the time they lent out LP's, that I would then routinely copy to cassette. 
 
+ Someone great
+ Degene die er niet meer is had ook we leven dat ze in de trein zat tegenover willekeurige medereizigers of alleen in een supermarktpad 
+ 

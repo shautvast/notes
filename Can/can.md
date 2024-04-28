@@ -73,3 +73,6 @@ Rita Mitsouko, who I still like better ;) I found them by accident in the librar
  Someone great
  Degene die er niet meer is had ook we leven dat ze in de trein zat tegenover willekeurige medereizigers of alleen in een supermarktpad 
  
+Porque morir e natural
+Omdat sterven natuurlijk is ben ik niet bang voor de dood
+Flamenco 

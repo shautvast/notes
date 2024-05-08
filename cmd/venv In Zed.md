@@ -5,11 +5,8 @@
 * activate `source .venv/bin/activate` 
 
 * create pyrightconfig.json
-```json
-{
-  "venvPath": ".",
-  "venv": ".venv"
-}
+```bash
+echo '{  "venvPath": ".",  "venv": ".venv"}' >pyrightconfig.json
 ```
 * `pip install ...`
 * `zed .`

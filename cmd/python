@@ -13,3 +13,4 @@ echo '{  "venvPath": ".",  "venv": ".venv"}' >pyrightconfig.json
 
 
 * to quit the venv: `deactivate`
+

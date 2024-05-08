@@ -15,4 +15,6 @@ echo '{  "venvPath": ".",  "venv": ".venv"}' >pyrightconfig.json
 * to quit the venv: `deactivate`
 
 * generate requirements.txt
+```bash
 pip3 freeze > requirements.txt
+```

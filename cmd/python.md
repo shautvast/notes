@@ -1,8 +1,11 @@
 ## New python project with virtual env in ZED
 
-* create $PROJECT `mkdir project; cd project`
-* create `python -m venv .venv`
-* activate `source .venv/bin/activate` 
+* create $PROJECT
+```bash
+mkdir project; cd project
+python -m venv .venv
+activate `source .venv/bin/activate
+```
 
 * create pyrightconfig.json
 ```bash

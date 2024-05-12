@@ -49,6 +49,7 @@ Let it fry until down. The tortilla should feel quite firm.
 
 Serve on a plate with more pepper and salt to taste.
 
+![tortilla slice](https://github.com/shautvast/notes/blob/main/Vegan%20gluten-free%20/spanish_tortilla/tortilla2.jpg)
 
 
 

@@ -25,7 +25,7 @@ Serves 1 if you're really hungry or 2 for a small snack.
 Now the Kala Namak, if you can get it will add a nice egginess to the flavour. It's a brown salt from India and the taste is quite astonishing 
 because it has a really strong egg aroma because of the sulphur that is in there. It can be overpowering, so use with care!
 
-Mix the chickpea flower, water, olive oil and guar cum, both salts, and a dash of pepper. Get rid of the lumps with a whisk and let it rest. 
+Mix the chickpea flower, water, olive oil and guar gum, both salts, and a dash of pepper. Get rid of the lumps with a whisk and let it rest. 
 Make sure to get a consistency that is not not too thick. You should end up with a light pancake batter. 
 It will thicken after a couple of minutes, so add water if needed. 
 

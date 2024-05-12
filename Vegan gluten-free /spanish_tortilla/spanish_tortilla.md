@@ -22,7 +22,7 @@ Serves 1 if you're really hungry or 2 for a small snack.
 * decent dash of olive oil for baking
 * salt and pepper to taste.
 
-Now the kala namak, if you can get it will add a nice egginess to the flavour. It's a brown salt from India and the taste is quite astonishing 
+Now the Kala Namak, if you can get it will add a nice egginess to the flavour. It's a brown salt from India and the taste is quite astonishing 
 because it has a really strong egg aroma because of the sulphur that is in there. It can be overpowering, so use with care!
 
 Mix the chickpea flower, water, olive oil and guar cum, salt and a dash of pepper. Get rid of the lumps with a whisk and let it rest. 

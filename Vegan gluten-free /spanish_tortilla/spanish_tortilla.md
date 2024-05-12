@@ -27,7 +27,7 @@ because it has a really strong egg aroma because of the sulphur that is in there
 
 Mix the chickpea flower, water, olive oil and guar gum, both salts, and a dash of pepper. Get rid of the lumps with a whisk and let it rest. 
 Make sure to get a consistency that is not not too thick. You should end up with a light pancake batter. 
-It will thicken after a couple of minutes, so add water if needed. 
+It will thicken after a couple of minutes, so add a little water if needed. 
 
 While the batter is resting, peel the potato (or just wash it if you like), and slice it really thin, not more than a milimeter. Some folks cook 
 the potato but to me that is like wasting the point of the whole tortilla. So put them on a clean tea towel to remove some of the starches and

@@ -1,5 +1,7 @@
 Vegan Spanish potato tortilla
 
+![https://github.com/shautvast/notes/blob/main/Vegan%20gluten-free%20/spanish_tortilla/tortilla1.jpg]
+
 This was a idea that had been cooking in the back of my mind for the past weeks. It's really simple, make a decent Spanish tortilla like they have
 for breakfast or lunch over there, but replacing the eggs with chickpea flower. Now chickpeas make an excellent egg replacer and is commonly
 added to commercial vegan egg mixes, but those often contain more starches or the taste is off.

@@ -42,8 +42,8 @@ contain a cast iron skillet of that size, because they're so much better for the
 Preheat the pan with a litlle oil and start stacking half of the potato slices. Then enough batter to cover them, the rest of the potatoes and
 a final layer of batter, again just enough to cover the slices. If some of the batter remains, leave it out.
 
-Now slowly fry the tortilla, for about five minutes. The top should be setting very slowly. We want it to be set, just enough to flip it. Putting
-the pan under a hot grill will definitely help.
+Now slowly fry the tortilla, for about five minutes. The top should be setting very slowly. You want it to be set just enough to flip it. Putting
+the pan under a hot grill will help.
 Now, once you feel secure, carefully slide the tortilla on a plate (cooked side down). Put the pan upside down over it and quickly flip it.
 Let it fry until down. The tortilla should feel quite firm.
 

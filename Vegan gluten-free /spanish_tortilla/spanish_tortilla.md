@@ -40,7 +40,7 @@ For frying up the final tortilla, use the right size pan. I used a 8 inch / 20 c
 contain a cast iron skillet of that size, because they're so much better for the planet.
 
 Preheat the pan with a litlle oil and start stacking half of the potato slices. Then enough batter to cover them, the rest of the potatoes and
-a final layer of batter, again just enough to cover the slices. If some of the batter remains, then so be it.
+a final layer of batter, again just enough to cover the slices. If some of the batter remains, leave it out.
 
 Now slowly fry the tortilla, for about five minutes. The top should be setting very slowly. We want it to be set, just enough to flip it. Putting
 the pan under a hot grill will definitely help.

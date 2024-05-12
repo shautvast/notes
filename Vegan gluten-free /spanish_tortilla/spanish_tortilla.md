@@ -1,4 +1,4 @@
-Vegan Spanish potato tortilla
+# Vegan Spanish potato tortilla
 
 ![tortilla](https://github.com/shautvast/notes/blob/main/Vegan%20gluten-free%20/spanish_tortilla/tortilla1.jpg)
 
@@ -12,15 +12,15 @@ potato.
 
 Serves 1 if you're really hungry or 2 for a small snack.
 
-Ingredients:
-one medium sized potato
-3/4 / 190 ml cup of plain water
-half cup/ 80 g of chickpea flower
-1/4 teaspoon guar gum
-2 teaspoons of (good extra virgin) oliveoil for the egg mixture
-optional: 1 tiny pinch of Kala Namak salt
-decent dash of olive oil for baking
-salt and pepper to taste.
+**Ingredients:**
+* one medium sized potato
+* 3/4 / 190 ml cup of plain water
+* half cup/ 80 g of chickpea flower
+* 1/4 teaspoon guar gum
+* 2 teaspoons of (good extra virgin) oliveoil for the egg mixture
+* optional: 1 tiny pinch of Kala Namak salt
+* decent dash of olive oil for baking
+* salt and pepper to taste.
 
 Now the kala namak, if you can get it will add a nice egginess to the flavour. It's a brown salt from India and the taste is quite astonishing 
 because it has a really strong egg aroma because of the sulphur that is in there. It can be overpowering, so use with care!

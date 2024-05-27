@@ -1,9 +1,10 @@
-Properties of home made nut/seed milks when replacing cow milk in coffee.
+## Properties of home made nut/seed milks when replacing cow milk in coffee.
+#### Work In Progress
 
 Always:
 * 100g nuts
 * 300ml plain water (unchlorinated Dutch tap water, or similar)
-* ground up for 1 minute on max on my vitamix
+* ground up for 1 minute on max in my vitamix
 * filtered with a fine cotton cloth nutbag
 * foamed in a cheap milk foamer. (heats it up to max 45C, and has a rotating whisk)
 

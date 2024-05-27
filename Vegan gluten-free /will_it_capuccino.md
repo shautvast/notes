@@ -10,7 +10,7 @@ Always:
 
 numeric scores are 1-10
 
-|   nut   | color          | mouthfeel     | taste        | foam | foam stability| foam taste    | cappucino score |
-|---------|----------------|---------------|--------------|------|---------------|---------------|-----------------|
-| pecan   | pale / brownish| watery, 4     |   nutty, 7   |  3   |       3       | ok    7       |      5          |
-| hazelnut| nicely white   | creamy, 8     | too strong,6 |  8   |       8       | less strong, 8|      6          |
+|   nut   | straining  |color            | mouthfeel     | taste        | foam | foam stability| foam taste    | cappucino score |
+|---------|------------|-----------------|---------------|--------------|------|---------------|---------------|-----------------|
+| pecan   | difficult  | pale / brownish | watery, 4     |   nutty, 7   |  3   |       3       | ok    7       |      5          |
+| hazelnut| easy       | nicely white    | creamy, 8     | too strong,6 |  8   |       8       | less strong, 8|      6          |

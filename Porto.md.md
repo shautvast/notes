@@ -9,4 +9,5 @@
 - Nola kitchen: Praça D. Filipa de Lencastre 25, 4050-259 Porto, Portugal
 - Honest Greens Santa Catarina
 Rua de Santa Catarina 184, 4000-442 Porto, Portugal
-- 
+- Don Pepe
+R. de Sampaio Bruno 31, 4000-440 Porto, Portugal

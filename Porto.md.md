@@ -13,3 +13,5 @@
 Rua de Santa Catarina 184, 4000-442 Porto, Portugal
 - Don Pepe
 R. de Sampaio Bruno 31, 4000-440 Porto, Portugal
+- Tasquinha do Bé
+R. de Belomonte 116, Porto, Portugal

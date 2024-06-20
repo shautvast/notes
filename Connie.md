@@ -22,3 +22,6 @@
 22. Di 28-5
 -----
 1. Do 30-5
+2. Di 4-6
+3. Do 6-6  13-6 niet en daarna Porto 
+4. Di 20-6

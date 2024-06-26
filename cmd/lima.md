@@ -1,7 +1,8 @@
 https://medium.com/@harry-touloupas/when-mac-m1-m2-met-ebpf-a-tale-of-compatibility-6b9a6bc53f3e
 * brew install lima
-* create file ubuntu-lts-ebpf.yaml: ```
-images:
+* create file ubuntu-lts-ebpf.yaml:
+* ```yaml
+  images:
 # Try to use release-yyyyMMdd image if available. Note that release-yyyyMMdd will be removed after several months.
 - location: "https://cloud-images.ubuntu.com/releases/22.04/release-20230518/ubuntu-22.04-server-cloudimg-amd64.img"
   arch: "x86_64"
@@ -37,6 +38,7 @@ provision:
       set -eux -o pipefail
       sudo cp /home/$(whoami).linux/.ssh/authorized_keys /root/.ssh/authorized_keys
 ```
+
 * ```bash
   limactl start --name=ebpf-lima-vm ./ubuntu-lts-ebpf.yaml
   ```

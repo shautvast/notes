@@ -1,3 +1,4 @@
+https://medium.com/@harry-touloupas/when-mac-m1-m2-met-ebpf-a-tale-of-compatibility-6b9a6bc53f3e
 * brew install lima
 * create file ubuntu-lts-ebpf.yaml:
 ```

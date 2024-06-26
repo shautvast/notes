@@ -43,5 +43,6 @@ provision:
   limactl start --name=ebpf-lima-vm ./ubuntu-lts-ebpf.yaml
   ```
 * ```bash
-  cat ~/.lima/ebpf-lima-vm/ssh.config >> ~/.ssh/config. #It appends Lima’s SSH configuration options to your default SSH options just to make it easier for PyCharm to connect to the VM.
+  cat ~/.lima/ebpf-lima-vm/ssh.config >> ~/.ssh/config
+  #It appends Lima’s SSH configuration options to your default SSH options just to make it easier for PyCharm to connect to the VM.
   ```

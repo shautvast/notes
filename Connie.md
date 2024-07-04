@@ -25,3 +25,5 @@
 2. Di 4-6
 3. Do 6-6; 13-6 niet en daarna Porto
 4. Di 20-6
+5. Wo 3-7
+6. Do 4-7

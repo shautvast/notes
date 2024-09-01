@@ -10,4 +10,5 @@ Droog en bewolkt
 lange intervallen, minder pauzes
 Buik ok. Had wel diarree vooraf.
 Knieën geen pijn.
-Ontbijt was 1 koffie en 3 water
+Ontbijt vooraf was 1 koffie en 3 water
+Achteraf 5g creatine 

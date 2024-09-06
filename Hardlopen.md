@@ -11,4 +11,7 @@ lange intervallen, minder pauzes
 Buik ok. Had wel diarree vooraf.
 Knieën geen pijn.
 Ontbijt vooraf was 1 koffie en 3 water
-Achteraf 5g creatine 
+Achteraf 5g creatine
+
+Dag 3 woensdag 4-9 17:15 39 min 7 km 
+Geen last van knieën. Verder gb 

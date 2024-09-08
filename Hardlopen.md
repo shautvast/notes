@@ -13,5 +13,8 @@ Knieën geen pijn.
 Ontbijt vooraf was 1 koffie en 3 water
 Achteraf 5g creatine
 
-Dag 3 woensdag 4-9 17:15 39 min 7 km 
+Dag 3 woensdag 4-9 17:15 39 min 7 km 10.8 kmh 
 Geen last van knieën. Verder gb 
+
+Dag 4 zondag 8-9-2024 13:38 37min 11.4 kmh 
+Zonnig 21 g c. PR

@@ -13,3 +13,4 @@ Rust image lib ffi Java 22
 - retrieve Java version from bytecode
 - Nr of transitive dependencies
 - Version lag of transitive dependencies (behind latest)
+- Vulns (checkmarx)

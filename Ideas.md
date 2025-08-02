@@ -12,3 +12,4 @@ Rust image lib ffi Java 22
 - Removal score based on above
 - retrieve Java version from bytecode
 - Nr of transitive dependencies
+- Version lag of transitive dependencies

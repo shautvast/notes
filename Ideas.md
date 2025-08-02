@@ -11,3 +11,4 @@ Rust image lib ffi Java 22
 - Nr of usage locations in project
 - Removal score based on above
 - retrieve Java version from bytecode
+- Nr of transitive dependencies

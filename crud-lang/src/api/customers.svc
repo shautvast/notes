@@ -1,0 +1,2 @@
+get(id: u32) -> Customer:
+   dao.get(id)
